@@ -8,13 +8,13 @@ def calcular_imc(imc)
   puts("Tu índice de masa corporal es => #{imc}")
   if imc < 18.5
     puts "El índice calculado es Bajo de peso"
-  elsif imc <= 18.5 || imc <= 24.9
+  elsif imc >= 18.5 || imc <= 24.9
     puts "El índice calculado es Normal"
-  elsif imc <= 25.0 || imc <= 29.9
+  elsif imc >= 25.0 || imc <= 29.9
     puts "El índice calculado es Sobrepeso"
-  elsif imc <= 30 || imc <= 34.9
+  elsif imc >= 30 || imc <= 34.9
     puts "El índice calculado es Obesidad Grado 1"
-  elsif imc <= 35 || imc <= 39.9
+  elsif imc >= 35 || imc <= 39.9
     puts "El índice calculado es Obesidad Grado 2"
   else
     puts "El índice calculado es Obesidad Mórbida"
