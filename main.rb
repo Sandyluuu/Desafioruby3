@@ -14,4 +14,4 @@ end
 resultado = calcular_nuevo_salario
 puts "El nuevo salario es: #{resultado}"
 
-#para llamar la función anterior
+#para llamar la función
